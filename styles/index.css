@@ -39,20 +39,19 @@ justify-content:space-between;
 .heading-style .profile-pic{
     width: 500px;
     height: 500px;
+    /* background-image: url(../assets/); */
 }
 .heading-title{
     color: #272727;
-font-size: 80px;
+font-size: 40px;
 font-weight: 800;
 margin-top: 10px;
 }
 .heading-des{
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
+font-size: 15px;
 font-weight: 400;
-line-height: 30px;
-margin-top: 20px;
-margin-bottom: 20px;
+margin: auto;
 }
 span{
     color: #E55473
@@ -110,7 +109,7 @@ background: rgba(71, 125, 17, 0.15);
 .icon-name{
     text-align: center;
     color: #272727;
-font-size: 24px;
+font-size: 20px;
 font-weight: 700;
 line-height: 35px;
 text-decoration-line: underline;
@@ -120,17 +119,33 @@ text-decoration-line: underline;
 }
 .main-container{
     width: 100%;
-height: 620px;
+height: 600px;
 border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
-margin:200px 0px 0px 0px;
+margin:100px 0px 0px 0px;
 display: flex;
 justify-content: space-between;
+
 align-items: center;
-padding: 150px 50px 50px 150px;
 }
 .icon-flower{
-    width: 400px;
-height: 500px;
-    padding: 100px 400px;
-}
+        width: 300px;
+        height: 400px;
+        margin-left: 20px;
+    }
+    .insta-container{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .img-size{
+    
+        display: flex;
+        justify-content:center;
+        gap: 20px;
+        
+    }
+    .img-box{
+        width: 200px;
+    height: 200px;
+    }
+    
