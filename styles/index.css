@@ -177,15 +177,18 @@ align-items: center;
         }
         .footer-heading{
             color: #ffff;
+            padding-top: 50px;
         }
         .heading-des1{
                 color: #e2c4c4;
                 font-size: 15px;
+                padding-top: 10px;
         }
         .footer-end{
             color: rgba(243, 231, 231, 0.4);
               font-size: 12px;
               margin-top: 20px;
+              padding-bottom:50px ;
         }
         .input-box{
             width: 400px;
